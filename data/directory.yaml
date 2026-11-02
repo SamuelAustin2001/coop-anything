@@ -8580,20 +8580,20 @@
   kind: mod
   status: prototype
   coop_scope:
-    players_visible: 'no'
+    players_visible: 'yes'
     story: partial
     enemies: unknown
     world_state: partial
     items: unknown
-  players: 2 (shared Mae)
+  players: 2 (each controls a Mae)
   networking: direct-ip
-  open_source: 'no'
+  open_source: 'yes'
   qa: none
-  notes: Experimental host/client prototype. One-off loopback checks are not a verified playable release; normal dialogue choices, scripted effects, persistent saves, and a full story run remain unverified.
+  notes: Experimental host/client prototype. Same-PC bot checks covered independent movement and selected BusStation dialogue/story branches. No packaged player release; normal controls, remote-computer play, save/restart behavior, and a full story run remain unverified.
   sources:
   - https://github.com/SamuelAustin2001/night-in-the-woods-coop
   - https://store.steampowered.com/app/481510/Night_in_the_Woods/
-  checked: '2026-10-22'
+  checked: '2026-11-01'
 - game: 'StarCraft II: Wings of Liberty'
   year: 2010
   engine: Blizzard SC2 engine
